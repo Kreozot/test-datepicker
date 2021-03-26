@@ -8,6 +8,9 @@ const commonConfig = getCommonConfig(true);
 const devServerConfig = {
   open: true,
   hot: true,
+  contentBase: [
+    path.join(__dirname, './static'),
+  ],
 };
 
 const appConfig = {
