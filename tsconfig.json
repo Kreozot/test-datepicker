@@ -1,0 +1,16 @@
+{
+  "include": ["typings/**/*", "src/**/*", "./webpack.*.js", ".stylelintrc.js"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUmdGlobalAccess": true,
+	  "esModuleInterop": true,
+    "target": "es5",
+    "jsx": "react"
+  }
+}
